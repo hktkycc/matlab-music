@@ -127,8 +127,8 @@ stp1=key(0,x/2,fs);
 stp = key(0,x,fs);
 stp2 = key(0,2*x,fs);
 stp3 = key(0,4*x,fs);
-%上面是音符定义
-%下面是曲谱
+%上面是音符定�?
+%下面是曲�?
 dachangjin = [re mi mi mi re do dla do re do stp re mi mi mi so mi mi re mi mi stp so la la la so mi mi so la so stp re mi mi stp2 re mi mi stp2 re mi dla dla stp re re re do dla stp re re re do dla stp re mi do stp2 re mi so stp2 la la la so mi stp2 re re re do dla stp dla dso dla dla];
 meilideshenhua = [dla mi dsi1 dla2 do2 re2 do2 mi1 dla la so2 la2 so2 re2 fa2 mi0 dla la so2 re2 mi2 fa2 mi1 do1 dla mi re stp2 dsi dla0 stp dla0 dla2 dsi2 do2 re2 mi2 do2 dsi dso dla2 do2 re2 do2 mi2 dla2 dsi2 do2 re2 mi2 do2 dsi dso dla2 do2 re2 do2 do dla2 dsi2 do2 re2 mi2 do2 dsi dso dla2 do2 re2 do2 mi2 mi dla2 dsi2 do2 re2 mi2 do2 dsi dso dla2 do2 re2 do2 do1 dla mi dsi dsi dla2 dsi2 do2 re2 mi1 dla la so2 la2 so2 re2 fa2 mi0 dla la so2 re2 mi2 fa2 mi re do1 dla mi re dsi dla0];
 xingyueshenhua = [mi so la stp2 la2 so re2 so2 mi do dla dla2 dsi2 do re2 mi2 re mi dla0 stp mi re2 do2 re do2 dsi2 do dsi2 dla2 dso1 dla do2 dsi2 dsi dso2 dmi2 dmi stp stp do2 re2 mi re2 do2 re do2 dsi2 do dsi2 dla2 dso1 dla mi2 dsi2 dsi do2 re2 do0 dla stp2 do2 dsi do2 re2 mi stp2 so2 mi1 dla stp2 do2 dsi do2 re2 do1 stp do2 re2 mi re2 do2 re do2 dsi2 do dsi2 dla2 dso1 dla do2 dsi2 dsi do2 re2 mi stp2 re2 re do2 re2 mi re2 do2 re do2 dsi2 do dsi2 dla2 dso do2 dso2 dla mi2 do2 dsi do2 re2 do1 stp mi2 so2 la stp2 la2 so re2 so2 mi2 do2 do2 dla2 dla dla2 dsi2 do mi2 re2 re so2 mi2 mi1 stp mi2 so2 la stp2 la2 so2 re2 re2 so2 mi2 do2 do2 dla2 dla mi2 re2 do mi2 re2 re mi2 dsi2 dla1];
@@ -149,7 +149,7 @@ huaxin = [so mi mi1 re do re1 re so mi0 stp so mi mi1 re do mi1 so la mi0 stp so
 a = [do re mi fa so la si];
 b = [si la so fa mi re do];
 
-sound(shengrikuaile,fs,24);
+sound(huaxin,fs,24);
 
 function wave = key(p,n,fs)
     t = 0:1/fs:4/n;
